@@ -182,7 +182,7 @@ That makes the repository useful for studying **preload cost versus stationary-d
 The controller contains the following states:
 
 <p align="center">
-  <img src="cu.png" width="82%" alt="Control Unit">
+  <img src="cu.png" width="500" alt="Control Unit">
 </p>
 
 The mode controls:
