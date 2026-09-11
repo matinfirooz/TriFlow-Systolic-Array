@@ -1,0 +1,4 @@
+triflow_sim
+triflow.vcd
+__pycache__/
+*.pyc
