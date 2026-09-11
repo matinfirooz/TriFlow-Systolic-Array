@@ -437,9 +437,15 @@ Interesting next versions:
 
 ---
 
-# Author
+## Author
 
-**Matin Firoozbakht**
+### Matin Firoozbakht
+
+<p align="center">
+  <a href="https://github.com/matinfirooz">
+    github.com/matinfirooz
+  </a>
+</p>
 
 ---
 
