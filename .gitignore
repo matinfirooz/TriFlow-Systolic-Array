@@ -1,0 +1,9 @@
+/build/
+/dist/
+__pycache__/
+*.py[cod]
+*.vvp
+*.vcd
+!reports/sample_trace.vcd
+core
+*.gtkw
