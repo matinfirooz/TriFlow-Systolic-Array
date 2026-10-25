@@ -2,7 +2,6 @@
 
 **One systolic fabric. Three runtime dataflows. One shared MAC per PE.**
 
-[![Verification](https://github.com/matinfirooz/TriFlow-Systolic-Array/actions/workflows/ci.yml/badge.svg)](https://github.com/matinfirooz/TriFlow-Systolic-Array/actions/workflows/ci.yml)
 ![SystemVerilog](https://img.shields.io/badge/RTL-SystemVerilog-306bea)
 ![Precision](https://img.shields.io/badge/Precision-INT4%20%2F%20INT8-079b89)
 ![License](https://img.shields.io/badge/License-MIT-d98722)
