@@ -1,0 +1,128 @@
+{
+  "tool": "Icarus Verilog version 12.0 (stable) ()",
+  "seed": 42,
+  "elapsed_seconds": 0.912,
+  "passed": 16,
+  "failed": 0,
+  "results": [
+    {
+      "test": "tb_legacy_smoke",
+      "top": "tb_legacy_smoke",
+      "parameters": {},
+      "simulator": "iverilog",
+      "status": "PASS"
+    },
+    {
+      "test": "tb_matrix_buffer",
+      "top": "tb_matrix_buffer",
+      "parameters": {},
+      "simulator": "iverilog",
+      "status": "PASS"
+    },
+    {
+      "test": "tb_perf_counters",
+      "top": "tb_perf_counters",
+      "parameters": {},
+      "simulator": "iverilog",
+      "status": "PASS"
+    },
+    {
+      "test": "tb_preload_sequencer",
+      "top": "tb_preload_sequencer",
+      "parameters": {},
+      "simulator": "iverilog",
+      "status": "PASS"
+    },
+    {
+      "test": "tb_resident_tracker",
+      "top": "tb_resident_tracker",
+      "parameters": {},
+      "simulator": "iverilog",
+      "status": "PASS"
+    },
+    {
+      "test": "tb_result_buffer",
+      "top": "tb_result_buffer",
+      "parameters": {},
+      "simulator": "iverilog",
+      "status": "PASS"
+    },
+    {
+      "test": "tb_result_collector",
+      "top": "tb_result_collector",
+      "parameters": {},
+      "simulator": "iverilog",
+      "status": "PASS"
+    },
+    {
+      "test": "tb_result_streamer",
+      "top": "tb_result_streamer",
+      "parameters": {},
+      "simulator": "iverilog",
+      "status": "PASS"
+    },
+    {
+      "test": "tb_signed_mac",
+      "top": "tb_signed_mac",
+      "parameters": {},
+      "simulator": "iverilog",
+      "status": "PASS"
+    },
+    {
+      "test": "tb_triflow_array",
+      "top": "tb_triflow_array",
+      "parameters": {},
+      "simulator": "iverilog",
+      "status": "PASS"
+    },
+    {
+      "test": "tb_triflow_controller",
+      "top": "tb_triflow_controller",
+      "parameters": {},
+      "simulator": "iverilog",
+      "status": "PASS"
+    },
+    {
+      "test": "tb_triflow_pe",
+      "top": "tb_triflow_pe",
+      "parameters": {},
+      "simulator": "iverilog",
+      "status": "PASS"
+    },
+    {
+      "test": "tb_triflow_pkg",
+      "top": "tb_triflow_pkg",
+      "parameters": {},
+      "simulator": "iverilog",
+      "status": "PASS"
+    },
+    {
+      "test": "tb_triflow_top",
+      "top": "tb_triflow_top",
+      "parameters": {},
+      "simulator": "iverilog",
+      "status": "PASS"
+    },
+    {
+      "test": "tb_wavefront_scheduler",
+      "top": "tb_wavefront_scheduler",
+      "parameters": {},
+      "simulator": "iverilog",
+      "status": "PASS"
+    },
+    {
+      "test": "core_n4_d8_a32_g1_s42",
+      "top": "tb_triflow_core",
+      "parameters": {
+        "N": 4,
+        "DATA_W": 8,
+        "ACC_W": 32,
+        "ZERO_GATE": 1,
+        "SEED": 42,
+        "TRIALS": 5
+      },
+      "simulator": "iverilog",
+      "status": "PASS"
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+
+-- Running command `read_verilog -sv "/tmp/triflow-baseline-q7o11o_o/triflow_pe.sv"; hierarchy -check -top triflow_pe; flatten; proc; opt; check; write_json "/workspace/scratch/c355c4e75a02/work/TriFlow-SA/build/baseline_pe_structure.json"; stat' --
+
+1. Executing Verilog-2005 frontend: /tmp/triflow-baseline-q7o11o_o/triflow_pe.sv
+Parsing SystemVerilog input from `/tmp/triflow-baseline-q7o11o_o/triflow_pe.sv' to AST representation.
+Generating RTLIL representation for module `\triflow_pe'.
+Successfully finished Verilog frontend.
+
+2. Executing HIERARCHY pass (managing design hierarchy).
+
+2.1. Analyzing design hierarchy..
+Top module:  \triflow_pe
+
+2.2. Analyzing design hierarchy..
+Top module:  \triflow_pe
+Removed 0 unused modules.
+
+3. Executing FLATTEN pass (flatten design).
+
+4. Executing PROC pass (convert processes to netlists).
+
+4.1. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Cleaned up 0 empty switches.
+
+4.2. Executing PROC_RMDEAD pass (remove dead branches from decision trees).
+Marked 3 switch rules as full_case in process $proc$/tmp/triflow-baseline-q7o11o_o/triflow_pe.sv:58$8 in module triflow_pe.
+Removed a total of 0 dead cases.
+
+4.3. Executing PROC_PRUNE pass (remove redundant assignments in processes).
+Removed 4 redundant assignments.
+Promoted 7 assignments to connections.
+
+4.4. Executing PROC_INIT pass (extract init attributes).
+
+4.5. Executing PROC_ARST pass (detect async resets in processes).
+Found async reset \rst_n in `\triflow_pe.$proc$/tmp/triflow-baseline-q7o11o_o/triflow_pe.sv:58$8'.
+
+4.6. Executing PROC_ROM pass (convert switches to ROMs).
+Converted 0 switches.
+<suppressed ~4 debug messages>
+
+4.7. Executing PROC_MUX pass (convert decision trees to multiplexers).
+Creating decoders for process `\triflow_pe.$proc$/tmp/triflow-baseline-q7o11o_o/triflow_pe.sv:58$8'.
+     1/7: $0\psum_east[31:0]
+     2/7: $0\psum_south[31:0]
+     3/7: $0\b_south[7:0]
+     4/7: $0\a_east[7:0]
+     5/7: $0\acc_reg[31:0]
+     6/7: $0\input_reg[7:0]
+     7/7: $0\weight_reg[7:0]
+Creating decoders for process `\triflow_pe.$proc$/tmp/triflow-baseline-q7o11o_o/triflow_pe.sv:0$1'.
+
+4.8. Executing PROC_DLATCH pass (convert process syncs to latches).
+No latch inferred for signal `\triflow_pe.\acc_value' from process `\triflow_pe.$proc$/tmp/triflow-baseline-q7o11o_o/triflow_pe.sv:0$1'.
+No latch inferred for signal `\triflow_pe.\os_sum_now' from process `\triflow_pe.$proc$/tmp/triflow-baseline-q7o11o_o/triflow_pe.sv:0$1'.
+No latch inferred for signal `\triflow_pe.\ws_sum_now' from process `\triflow_pe.$proc$/tmp/triflow-baseline-q7o11o_o/triflow_pe.sv:0$1'.
+No latch inferred for signal `\triflow_pe.\is_sum_now' from process `\triflow_pe.$proc$/tmp/triflow-baseline-q7o11o_o/triflow_pe.sv:0$1'.
+No latch inferred for signal `\triflow_pe.\prod_os' from process `\triflow_pe.$proc$/tmp/triflow-baseline-q7o11o_o/triflow_pe.sv:0$1'.
+No latch inferred for signal `\triflow_pe.\prod_ws' from process `\triflow_pe.$proc$/tmp/triflow-baseline-q7o11o_o/triflow_pe.sv:0$1'.
+No latch inferred for signal `\triflow_pe.\prod_is' from process `\triflow_pe.$proc$/tmp/triflow-baseline-q7o11o_o/triflow_pe.sv:0$1'.
+
+4.9. Executing PROC_DFF pass (convert process syncs to FFs).
+Creating register for signal `\triflow_pe.\a_east' using process `\triflow_pe.$proc$/tmp/triflow-baseline-q7o11o_o/triflow_pe.sv:58$8'.
+  created $adff cell `$procdff$50' with positive edge clock and negative level reset.
+Creating register for signal `\triflow_pe.\b_south' using process `\triflow_pe.$proc$/tmp/triflow-baseline-q7o11o_o/triflow_pe.sv:58$8'.
+  created $adff cell `$procdff$51' with positive edge clock and negative level reset.
+Creating register for signal `\triflow_pe.\psum_south' using process `\triflow_pe.$proc$/tmp/triflow-baseline-q7o11o_o/triflow_pe.sv:58$8'.
+  created $adff cell `$procdff$52' with positive edge clock and negative level reset.
+Creating register for signal `\triflow_pe.\psum_east' using process `\triflow_pe.$proc$/tmp/triflow-baseline-q7o11o_o/triflow_pe.sv:58$8'.
+  created $adff cell `$procdff$53' with positive edge clock and negative level reset.
+Creating register for signal `\triflow_pe.\weight_reg' using process `\triflow_pe.$proc$/tmp/triflow-baseline-q7o11o_o/triflow_pe.sv:58$8'.
+  created $adff cell `$procdff$54' with positive edge clock and negative level reset.
+Creating register for signal `\triflow_pe.\input_reg' using process `\triflow_pe.$proc$/tmp/triflow-baseline-q7o11o_o/triflow_pe.sv:58$8'.
+  created $adff cell `$procdff$55' with positive edge clock and negative level reset.
+Creating register for signal `\triflow_pe.\acc_reg' using process `\triflow_pe.$proc$/tmp/triflow-baseline-q7o11o_o/triflow_pe.sv:58$8'.
+  created $adff cell `$procdff$56' with positive edge clock and negative level reset.
+
+4.10. Executing PROC_MEMWR pass (convert process memory writes to cells).
+
+4.11. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Found and cleaned up 4 empty switches in `\triflow_pe.$proc$/tmp/triflow-baseline-q7o11o_o/triflow_pe.sv:58$8'.
+Removing empty process `triflow_pe.$proc$/tmp/triflow-baseline-q7o11o_o/triflow_pe.sv:58$8'.
+Removing empty process `triflow_pe.$proc$/tmp/triflow-baseline-q7o11o_o/triflow_pe.sv:0$1'.
+Cleaned up 4 empty switches.
+
+4.12. Executing OPT_EXPR pass (perform const folding).
+Optimizing module triflow_pe.
+<suppressed ~3 debug messages>
+
+5. Executing OPT pass (performing simple optimizations).
+
+5.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module triflow_pe.
+
+5.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\triflow_pe'.
+<suppressed ~12 debug messages>
+Removed a total of 4 cells.
+
+5.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \triflow_pe..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~7 debug messages>
+
+5.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \triflow_pe.
+    New ctrl vector for $pmux cell $procmux$32: $auto$opt_reduce.cc:134:opt_pmux$58
+    New ctrl vector for $pmux cell $procmux$24: $auto$opt_reduce.cc:134:opt_pmux$60
+  Optimizing cells in module \triflow_pe.
+Performed a total of 2 changes.
+
+5.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\triflow_pe'.
+Removed a total of 0 cells.
+
+5.6. Executing OPT_DFF pass (perform DFF optimizations).
+Adding EN signal on $procdff$54 ($adff) from module triflow_pe (D = \preload_data, Q = \weight_reg).
+Adding EN signal on $procdff$55 ($adff) from module triflow_pe (D = \preload_data, Q = \input_reg).
+Adding EN signal on $procdff$56 ($adff) from module triflow_pe (D = $procmux$44_Y, Q = \acc_reg).
+
+5.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \triflow_pe..
+Removed 3 unused cells and 34 unused wires.
+<suppressed ~4 debug messages>
+
+5.8. Executing OPT_EXPR pass (perform const folding).
+Optimizing module triflow_pe.
+<suppressed ~1 debug messages>
+
+5.9. Rerunning OPT passes. (Maybe there is more to do..)
+
+5.10. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \triflow_pe..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~5 debug messages>
+
+5.11. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \triflow_pe.
+Performed a total of 0 changes.
+
+5.12. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\triflow_pe'.
+Removed a total of 0 cells.
+
+5.13. Executing OPT_DFF pass (perform DFF optimizations).
+
+5.14. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \triflow_pe..
+
+5.15. Executing OPT_EXPR pass (perform const folding).
+Optimizing module triflow_pe.
+
+5.16. Finished OPT passes. (There is nothing left to do.)
+
+6. Executing CHECK pass (checking for obvious problems).
+Checking module triflow_pe...
+Found and reported 0 problems.
+
+7. Executing JSON backend.
+
+8. Printing statistics.
+
+=== triflow_pe ===
+
+   Number of wires:                 41
+   Number of wire bits:            629
+   Number of public wires:          25
+   Number of public wire bits:     399
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 29
+     $add                            3
+     $adff                           4
+     $adffe                          3
+     $eq                             2
+     $logic_not                      1
+     $mul                            3
+     $mux                           10
+     $reduce_bool                    1
+     $reduce_or                      2
+

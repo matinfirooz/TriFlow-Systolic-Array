@@ -1,0 +1,30 @@
+{
+  "tool": "Verilator 5.020 2024-01-01 rev (Debian 5.020-1)",
+  "results": [
+    {
+      "configuration": "N=1 DATA_W=4 ACC_W=8",
+      "status": "PASS",
+      "output": ""
+    },
+    {
+      "configuration": "N=3 DATA_W=4 ACC_W=12",
+      "status": "PASS",
+      "output": ""
+    },
+    {
+      "configuration": "N=4 DATA_W=8 ACC_W=32",
+      "status": "PASS",
+      "output": ""
+    },
+    {
+      "configuration": "N=8 DATA_W=8 ACC_W=32",
+      "status": "PASS",
+      "output": ""
+    },
+    {
+      "configuration": "legacy wrapper",
+      "status": "PASS",
+      "output": ""
+    }
+  ]
+}

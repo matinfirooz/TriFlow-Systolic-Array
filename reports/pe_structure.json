@@ -1,0 +1,39 @@
+{
+  "current": {
+    "top": "triflow_pe",
+    "cell_counts": {
+      "$add": 1,
+      "$adffe": 7,
+      "$eq": 2,
+      "$logic_and": 6,
+      "$logic_not": 1,
+      "$logic_or": 2,
+      "$lt": 1,
+      "$mul": 1,
+      "$mux": 21,
+      "$ne": 1,
+      "$reduce_and": 1,
+      "$reduce_bool": 3
+    },
+    "multipliers": 1,
+    "adders": 1,
+    "scope": "Generic RTL operators after proc/opt; not area, frequency or power"
+  },
+  "uploaded_baseline": {
+    "top": "triflow_pe",
+    "cell_counts": {
+      "$add": 3,
+      "$adff": 4,
+      "$adffe": 3,
+      "$eq": 2,
+      "$logic_not": 1,
+      "$mul": 3,
+      "$mux": 10,
+      "$reduce_bool": 1,
+      "$reduce_or": 2
+    },
+    "multipliers": 3,
+    "adders": 3,
+    "scope": "Generic RTL operators after proc/opt; not area, frequency or power"
+  }
+}

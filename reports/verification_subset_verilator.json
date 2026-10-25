@@ -1,0 +1,23 @@
+{
+  "tool": "Icarus Verilog version 12.0 (stable) ()",
+  "seed": 42,
+  "elapsed_seconds": 16.915,
+  "passed": 1,
+  "failed": 0,
+  "results": [
+    {
+      "test": "core_n4_d8_a32_g1_s42",
+      "top": "tb_triflow_core",
+      "parameters": {
+        "N": 4,
+        "DATA_W": 8,
+        "ACC_W": 32,
+        "ZERO_GATE": 1,
+        "SEED": 42,
+        "TRIALS": 5
+      },
+      "simulator": "verilator",
+      "status": "PASS"
+    }
+  ]
+}
