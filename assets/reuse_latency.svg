@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="780" viewBox="0 0 1500 780" role="img"><title>Measured RTL controller latency with and without resident weight reuse</title>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse"><path d="M0,0 L8,4 L0,8 Z" fill="context-stroke"/></marker></defs>
+<rect width="1500" height="780" fill="white"/>
+<text x="48" y="43" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="700" text-anchor="start" fill="#306bea">TRIFLOW-SA / MEASURED RTL CYCLES</text>
+<text x="48" y="91" font-family="DejaVu Sans,Arial,sans-serif" font-size="38" font-weight="700" text-anchor="start" fill="#14243b">Resident reuse removes the preload phase</text>
+<text x="48" y="125" font-family="DejaVu Sans,Arial,sans-serif" font-size="19" font-weight="400" text-anchor="start" fill="#5b6d83">WS latency · pause = 0 · excludes operand host writes and result-stream drain · same array and wavefront</text>
+<polyline points="130,640.0 1430,640.0" fill="none" stroke="#cdd8e6" stroke-width="1" stroke-linejoin="round"/>
+<text x="107" y="646.0" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" font-weight="400" text-anchor="end" fill="#5b6d83">0</text>
+<polyline points="130,556.0 1430,556.0" fill="none" stroke="#cdd8e6" stroke-width="1" stroke-linejoin="round"/>
+<text x="107" y="562.0" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" font-weight="400" text-anchor="end" fill="#5b6d83">20</text>
+<polyline points="130,472.0 1430,472.0" fill="none" stroke="#cdd8e6" stroke-width="1" stroke-linejoin="round"/>
+<text x="107" y="478.0" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" font-weight="400" text-anchor="end" fill="#5b6d83">40</text>
+<polyline points="130,388.0 1430,388.0" fill="none" stroke="#cdd8e6" stroke-width="1" stroke-linejoin="round"/>
+<text x="107" y="394.0" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" font-weight="400" text-anchor="end" fill="#5b6d83">60</text>
+<polyline points="130,304.0 1430,304.0" fill="none" stroke="#cdd8e6" stroke-width="1" stroke-linejoin="round"/>
+<text x="107" y="310.0" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" font-weight="400" text-anchor="end" fill="#5b6d83">80</text>
+<polyline points="130,220.0 1430,220.0" fill="none" stroke="#cdd8e6" stroke-width="1" stroke-linejoin="round"/>
+<text x="107" y="226.0" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" font-weight="400" text-anchor="end" fill="#5b6d83">100</text>
+<rect x="190" y="627.4" width="65" height="12.6" rx="4" fill="#d98722" stroke="#d98722" stroke-width="1.6"/>
+<text x="222.5" y="615.4" font-family="DejaVu Sans,Arial,sans-serif" font-size="23" font-weight="700" text-anchor="middle" fill="#d98722">3</text>
+<rect x="272" y="631.6" width="65" height="8.4" rx="4" fill="#079b89" stroke="#079b89" stroke-width="1.6"/>
+<text x="304.5" y="619.6" font-family="DejaVu Sans,Arial,sans-serif" font-size="23" font-weight="700" text-anchor="middle" fill="#079b89">2</text>
+<text x="263" y="680" font-family="DejaVu Sans,Arial,sans-serif" font-size="21" font-weight="700" text-anchor="middle" fill="#14243b">N = 1</text>
+<text x="263" y="714" font-family="DejaVu Sans,Arial,sans-serif" font-size="20" font-weight="700" text-anchor="middle" fill="#079b89">1.50×</text>
+<rect x="440" y="602.2" width="65" height="37.8" rx="4" fill="#d98722" stroke="#d98722" stroke-width="1.6"/>
+<text x="472.5" y="590.2" font-family="DejaVu Sans,Arial,sans-serif" font-size="23" font-weight="700" text-anchor="middle" fill="#d98722">9</text>
+<rect x="522" y="619.0" width="65" height="21.0" rx="4" fill="#079b89" stroke="#079b89" stroke-width="1.6"/>
+<text x="554.5" y="607.0" font-family="DejaVu Sans,Arial,sans-serif" font-size="23" font-weight="700" text-anchor="middle" fill="#079b89">5</text>
+<text x="513" y="680" font-family="DejaVu Sans,Arial,sans-serif" font-size="21" font-weight="700" text-anchor="middle" fill="#14243b">N = 2</text>
+<text x="513" y="714" font-family="DejaVu Sans,Arial,sans-serif" font-size="20" font-weight="700" text-anchor="middle" fill="#079b89">1.80×</text>
+<rect x="690" y="568.6" width="65" height="71.4" rx="4" fill="#d98722" stroke="#d98722" stroke-width="1.6"/>
+<text x="722.5" y="556.6" font-family="DejaVu Sans,Arial,sans-serif" font-size="23" font-weight="700" text-anchor="middle" fill="#d98722">17</text>
+<rect x="772" y="606.4" width="65" height="33.6" rx="4" fill="#079b89" stroke="#079b89" stroke-width="1.6"/>
+<text x="804.5" y="594.4" font-family="DejaVu Sans,Arial,sans-serif" font-size="23" font-weight="700" text-anchor="middle" fill="#079b89">8</text>
+<text x="763" y="680" font-family="DejaVu Sans,Arial,sans-serif" font-size="21" font-weight="700" text-anchor="middle" fill="#14243b">N = 3</text>
+<text x="763" y="714" font-family="DejaVu Sans,Arial,sans-serif" font-size="20" font-weight="700" text-anchor="middle" fill="#079b89">2.12×</text>
+<rect x="940" y="526.6" width="65" height="113.4" rx="4" fill="#d98722" stroke="#d98722" stroke-width="1.6"/>
+<text x="972.5" y="514.6" font-family="DejaVu Sans,Arial,sans-serif" font-size="23" font-weight="700" text-anchor="middle" fill="#d98722">27</text>
+<rect x="1022" y="593.8" width="65" height="46.2" rx="4" fill="#079b89" stroke="#079b89" stroke-width="1.6"/>
+<text x="1054.5" y="581.8" font-family="DejaVu Sans,Arial,sans-serif" font-size="23" font-weight="700" text-anchor="middle" fill="#079b89">11</text>
+<text x="1013" y="680" font-family="DejaVu Sans,Arial,sans-serif" font-size="21" font-weight="700" text-anchor="middle" fill="#14243b">N = 4</text>
+<text x="1013" y="714" font-family="DejaVu Sans,Arial,sans-serif" font-size="20" font-weight="700" text-anchor="middle" fill="#079b89">2.45×</text>
+<rect x="1190" y="274.6" width="65" height="365.4" rx="4" fill="#d98722" stroke="#d98722" stroke-width="1.6"/>
+<text x="1222.5" y="262.6" font-family="DejaVu Sans,Arial,sans-serif" font-size="23" font-weight="700" text-anchor="middle" fill="#d98722">87</text>
+<rect x="1272" y="543.4" width="65" height="96.60000000000001" rx="4" fill="#079b89" stroke="#079b89" stroke-width="1.6"/>
+<text x="1304.5" y="531.4" font-family="DejaVu Sans,Arial,sans-serif" font-size="23" font-weight="700" text-anchor="middle" fill="#079b89">23</text>
+<text x="1263" y="680" font-family="DejaVu Sans,Arial,sans-serif" font-size="21" font-weight="700" text-anchor="middle" fill="#14243b">N = 8</text>
+<text x="1263" y="714" font-family="DejaVu Sans,Arial,sans-serif" font-size="20" font-weight="700" text-anchor="middle" fill="#079b89">3.78×</text>
+<rect x="950" y="171" width="20" height="18" rx="3" fill="#d98722" stroke="#d98722" stroke-width="1.6"/>
+<text x="982" y="187" font-family="DejaVu Sans,Arial,sans-serif" font-size="18" font-weight="400" text-anchor="start" fill="#5b6d83">Cold WS</text>
+<rect x="1165" y="171" width="20" height="18" rx="3" fill="#079b89" stroke="#079b89" stroke-width="1.6"/>
+<text x="1197" y="187" font-family="DejaVu Sans,Arial,sans-serif" font-size="18" font-weight="400" text-anchor="start" fill="#5b6d83">Resident WS</text>
+<text x="48" y="756" font-family="DejaVu Sans,Arial,sans-serif" font-size="18" font-weight="400" text-anchor="start" fill="#5b6d83">Source: reports/rtl_metrics.csv. Ratios describe controller latency, not end-to-end system throughput.</text>
+</svg>

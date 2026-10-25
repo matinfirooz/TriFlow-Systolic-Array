@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1060" viewBox="0 0 1800 1060" role="img"><title>(e) Result collector, C registers, and ready/valid drain</title>
+<defs>
+<marker id="arr0" viewBox="0 0 9 7" refX="8" refY="3.5" markerWidth="8" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L9 3.5 L0 7 Z" fill="#202832"/></marker>
+<marker id="arr1" viewBox="0 0 9 7" refX="8" refY="3.5" markerWidth="8" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L9 3.5 L0 7 Z" fill="#66717d"/></marker>
+<marker id="arr2" viewBox="0 0 9 7" refX="8" refY="3.5" markerWidth="8" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L9 3.5 L0 7 Z" fill="#2468a0"/></marker>
+<marker id="arr3" viewBox="0 0 9 7" refX="8" refY="3.5" markerWidth="8" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L9 3.5 L0 7 Z" fill="#087f79"/></marker>
+<marker id="arr4" viewBox="0 0 9 7" refX="8" refY="3.5" markerWidth="8" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L9 3.5 L0 7 Z" fill="#b46c16"/></marker>
+</defs>
+<rect x="0" y="0" width="1800" height="1060" fill="white" stroke="none" stroke-width="1.7"/>
+<text x="34" y="38" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="24" font-weight="700" fill="#202832">(e) Result collector, C registers, and ready/valid drain</text>
+<text x="34" y="68" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="400" fill="#66717d">Wavefront retirement can write several C cells per edge. Indexed host reads and the result stream have separate read-selection networks.</text>
+<polyline points="34,87 1766,87" fill="none" stroke="#cad1d7" stroke-width="1" stroke-linejoin="round"/>
+<rect x="365" y="159" width="660" height="422" fill="none" stroke="#cad1d7" stroke-width="1.7" stroke-dasharray="7 5"/>
+<text x="695" y="187" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="19" font-weight="700" fill="#202832">Repeated for every output cell (i,j)</text>
+<polygon points="430,258 530,278 530,454 430,474" fill="white" stroke="#b46c16" stroke-width="1.7"/>
+<text x="438" y="317.0" text-anchor="start" font-family="DejaVu Sans Mono,Arial,sans-serif" font-size="12" font-weight="400" fill="#b46c16">OS</text>
+<text x="438" y="371.0" text-anchor="start" font-family="DejaVu Sans Mono,Arial,sans-serif" font-size="12" font-weight="400" fill="#b46c16">WS</text>
+<text x="438" y="425.0" text-anchor="start" font-family="DejaVu Sans Mono,Arial,sans-serif" font-size="12" font-weight="400" fill="#b46c16">IS</text>
+<polyline points="480.0,464 480.0,482" fill="none" stroke="#66717d" stroke-width="1.2" stroke-linejoin="round" stroke-dasharray="6 4"/>
+<text x="480.0" y="499" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="13" font-weight="400" fill="#66717d">mode</text>
+<text x="45" y="297" text-anchor="start" font-family="DejaVu Sans Mono,Arial,sans-serif" font-size="18" font-weight="400" fill="#b46c16">os_now[i,j]</text>
+<polyline points="45,312 430,312" fill="none" stroke="#b46c16" stroke-width="2" stroke-linejoin="round" marker-end="url(#arr4)"/>
+<polyline points="300,319 310,305" fill="none" stroke="#b46c16" stroke-width="1.5" stroke-linejoin="round"/>
+<rect x="311" y="288" width="16.119999999999997" height="19" fill="white" stroke="none" stroke-width="1.7"/>
+<text x="315" y="302" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="14" font-weight="400" fill="#b46c16">P</text>
+<text x="45" y="351" text-anchor="start" font-family="DejaVu Sans Mono,Arial,sans-serif" font-size="18" font-weight="400" fill="#b46c16">ws_bottom[j]</text>
+<polyline points="45,366 430,366" fill="none" stroke="#b46c16" stroke-width="2" stroke-linejoin="round" marker-end="url(#arr4)"/>
+<polyline points="300,373 310,359" fill="none" stroke="#b46c16" stroke-width="1.5" stroke-linejoin="round"/>
+<rect x="311" y="342" width="16.119999999999997" height="19" fill="white" stroke="none" stroke-width="1.7"/>
+<text x="315" y="356" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="14" font-weight="400" fill="#b46c16">P</text>
+<text x="45" y="405" text-anchor="start" font-family="DejaVu Sans Mono,Arial,sans-serif" font-size="18" font-weight="400" fill="#b46c16">is_right[i]</text>
+<polyline points="45,420 430,420" fill="none" stroke="#b46c16" stroke-width="2" stroke-linejoin="round" marker-end="url(#arr4)"/>
+<polyline points="300,427 310,413" fill="none" stroke="#b46c16" stroke-width="1.5" stroke-linejoin="round"/>
+<rect x="311" y="396" width="16.119999999999997" height="19" fill="white" stroke="none" stroke-width="1.7"/>
+<text x="315" y="410" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="14" font-weight="400" fill="#b46c16">P</text>
+<rect x="690" y="327" width="245" height="80" fill="#edf3f8" stroke="#202832" stroke-width="1.7"/>
+<text x="812.5" y="354" text-anchor="middle" font-family="DejaVu Sans Mono,Arial,sans-serif" font-size="18" font-weight="700" fill="#202832">C[i,j]</text>
+<text x="812.5" y="376" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="14" font-weight="400" fill="#66717d">P</text>
+<polygon points="700,407 707,397 714,407" fill="#edf3f8" stroke="#202832" stroke-width="1.2"/>
+<text x="812.5" y="427" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="13" font-weight="400" fill="#66717d">CE: write_mask[i,j]</text>
+<polyline points="530,366 690,366" fill="none" stroke="#b46c16" stroke-width="2" stroke-linejoin="round" marker-end="url(#arr4)"/>
+<rect x="385" y="621" width="585" height="81" fill="white" stroke="#202832" stroke-width="1.7"/>
+<text x="677.5" y="651" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="19" font-weight="700" fill="#202832">Retire mask</text>
+<text x="677.5" y="679" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="400" fill="#66717d">enable &amp; legal_mode &amp; (t = i + j + N − 1)</text>
+<polyline points="810,621 810,407" fill="none" stroke="#66717d" stroke-width="1.5" stroke-linejoin="round" stroke-dasharray="6 4" marker-end="url(#arr1)"/>
+<text x="595" y="555" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="15" font-weight="400" fill="#66717d">reset / clear → 0; no write → hold</text>
+<polyline points="935,367 1070,367 1070,285 1190,285" fill="none" stroke="#b46c16" stroke-width="2" stroke-linejoin="round" marker-end="url(#arr4)"/>
+<polyline points="1070,367 1070,535 1190,535" fill="none" stroke="#b46c16" stroke-width="2" stroke-linejoin="round" marker-end="url(#arr4)"/>
+<circle cx="1070" cy="367" r="3.5" fill="#b46c16"/>
+<polyline points="1065,467 1075,453" fill="none" stroke="#b46c16" stroke-width="1.5" stroke-linejoin="round"/>
+<rect x="1076" y="436" width="40.48" height="19" fill="white" stroke="none" stroke-width="1.7"/>
+<text x="1080" y="450" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="14" font-weight="400" fill="#b46c16">N²·P</text>
+<polygon points="1190,215 1280,235 1280,335 1190,355" fill="white" stroke="#b46c16" stroke-width="1.7"/>
+<text x="1198" y="290.0" text-anchor="start" font-family="DejaVu Sans Mono,Arial,sans-serif" font-size="12" font-weight="400" fill="#b46c16">C…</text>
+<polyline points="1235.0,345 1235.0,363" fill="none" stroke="#66717d" stroke-width="1.2" stroke-linejoin="round" stroke-dasharray="6 4"/>
+<text x="1235.0" y="380" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="13" font-weight="400" fill="#66717d">host row/col</text>
+<polygon points="1190,465 1280,485 1280,585 1190,605" fill="white" stroke="#b46c16" stroke-width="1.7"/>
+<text x="1198" y="540.0" text-anchor="start" font-family="DejaVu Sans Mono,Arial,sans-serif" font-size="12" font-weight="400" fill="#b46c16">C…</text>
+<polyline points="1235.0,595 1235.0,613" fill="none" stroke="#66717d" stroke-width="1.2" stroke-linejoin="round" stroke-dasharray="6 4"/>
+<text x="1235.0" y="630" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="13" font-weight="400" fill="#66717d">stream index</text>
+<polyline points="1280,285 1745,285" fill="none" stroke="#b46c16" stroke-width="2" stroke-linejoin="round" marker-end="url(#arr4)"/>
+<text x="1420" y="268" text-anchor="start" font-family="DejaVu Sans Mono,Arial,sans-serif" font-size="19" font-weight="400" fill="#b46c16">result_data</text>
+<polyline points="1645,292 1655,278" fill="none" stroke="#b46c16" stroke-width="1.5" stroke-linejoin="round"/>
+<rect x="1656" y="261" width="16.119999999999997" height="19" fill="white" stroke="none" stroke-width="1.7"/>
+<text x="1660" y="275" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="14" font-weight="400" fill="#b46c16">P</text>
+<polygon points="1380,485 1445,505 1445,565 1380,585" fill="white" stroke="#b46c16" stroke-width="1.7"/>
+<text x="1388" y="523.3333333333334" text-anchor="start" font-family="DejaVu Sans Mono,Arial,sans-serif" font-size="12" font-weight="400" fill="#b46c16">D</text>
+<text x="1388" y="556.6666666666666" text-anchor="start" font-family="DejaVu Sans Mono,Arial,sans-serif" font-size="12" font-weight="400" fill="#b46c16">0</text>
+<polyline points="1412.5,575 1412.5,593" fill="none" stroke="#66717d" stroke-width="1.2" stroke-linejoin="round" stroke-dasharray="6 4"/>
+<text x="1412.5" y="610" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="13" font-weight="400" fill="#66717d">busy</text>
+<polyline points="1280,535 1320,535 1320,518 1380,518" fill="none" stroke="#b46c16" stroke-width="2" stroke-linejoin="round" marker-end="url(#arr4)"/>
+<text x="1345" y="557" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="15" font-weight="400" fill="#b46c16">0</text>
+<polyline points="1360,552 1380,552" fill="none" stroke="#b46c16" stroke-width="2" stroke-linejoin="round" marker-end="url(#arr4)"/>
+<polyline points="1445,535 1745,535" fill="none" stroke="#b46c16" stroke-width="2" stroke-linejoin="round" marker-end="url(#arr4)"/>
+<text x="1500" y="518" text-anchor="start" font-family="DejaVu Sans Mono,Arial,sans-serif" font-size="19" font-weight="400" fill="#b46c16">stream_data</text>
+<polyline points="1645,542 1655,528" fill="none" stroke="#b46c16" stroke-width="1.5" stroke-linejoin="round"/>
+<rect x="1656" y="511" width="16.119999999999997" height="19" fill="white" stroke="none" stroke-width="1.7"/>
+<text x="1660" y="525" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="14" font-weight="400" fill="#b46c16">P</text>
+<text x="1330" y="393" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" font-weight="400" fill="#66717d">Asynchronous reads from flop state</text>
+<rect x="440" y="822" width="250" height="82" fill="#edf3f8" stroke="#202832" stroke-width="1.7"/>
+<text x="565.0" y="849" text-anchor="middle" font-family="DejaVu Sans Mono,Arial,sans-serif" font-size="18" font-weight="700" fill="#202832">index_q</text>
+<text x="565.0" y="871" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="14" font-weight="400" fill="#66717d">max(1, ceil(log₂ N²)) bits</text>
+<polygon points="450,904 457,894 464,904" fill="#edf3f8" stroke="#202832" stroke-width="1.2"/>
+<text x="565.0" y="924" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="13" font-weight="400" fill="#66717d">CE: busy &amp; ready</text>
+<circle cx="322" cy="863" r="26" fill="white" stroke="#202832" stroke-width="2"/>
+<text x="322" y="872" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="30" font-weight="400" fill="#202832">+</text>
+<text x="322" y="815" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="18" font-weight="400" fill="#202832">1</text>
+<polyline points="322,824 322,837" fill="none" stroke="#202832" stroke-width="1.5" stroke-linejoin="round" marker-end="url(#arr0)"/>
+<polyline points="690,863 740,863 740,950 210,950 210,863 296,863" fill="none" stroke="#202832" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#arr0)"/>
+<polyline points="348,863 440,863" fill="none" stroke="#202832" stroke-width="2" stroke-linejoin="round" marker-end="url(#arr0)"/>
+<circle cx="740" cy="863" r="3.5" fill="#202832"/>
+<rect x="870" y="822" width="280" height="82" fill="white" stroke="#202832" stroke-width="1.7"/>
+<text x="1010.0" y="852" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="19" font-weight="700" fill="#202832">Last-index compare</text>
+<text x="1010.0" y="880" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="400" fill="#66717d">index_q = N² − 1</text>
+<polyline points="740,863 870,863" fill="none" stroke="#202832" stroke-width="2" stroke-linejoin="round" marker-end="url(#arr0)"/>
+<polyline points="740,863 740,763 1235,763 1235,605" fill="none" stroke="#66717d" stroke-width="1.5" stroke-linejoin="round" stroke-dasharray="6 4" marker-end="url(#arr1)"/>
+<rect x="816.8" y="733" width="286.4" height="20" fill="white" stroke="none" stroke-width="1.7"/>
+<text x="960" y="748" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="15" font-weight="400" fill="#66717d">row = index / N; col = index % N</text>
+<rect x="1360" y="822" width="220" height="82" fill="#edf3f8" stroke="#202832" stroke-width="1.7"/>
+<text x="1470.0" y="849" text-anchor="middle" font-family="DejaVu Sans Mono,Arial,sans-serif" font-size="18" font-weight="700" fill="#202832">busy_q</text>
+<text x="1470.0" y="871" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="14" font-weight="400" fill="#66717d">1 bit</text>
+<polygon points="1370,904 1377,894 1384,904" fill="#edf3f8" stroke="#202832" stroke-width="1.2"/>
+<rect x="1270" y="700" width="320" height="88" fill="white" stroke="#202832" stroke-width="1.7"/>
+<text x="1430.0" y="730" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="19" font-weight="700" fill="#202832">Busy next-state</text>
+<text x="1430.0" y="758" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="400" fill="#66717d">set: launch; clear: last &amp; ready</text>
+<text x="1290" y="680" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="15" font-weight="400" fill="#66717d">launch = done &amp; stream_q</text>
+<polyline points="1430,788 1325,788 1325,863 1360,863" fill="none" stroke="#66717d" stroke-width="1.5" stroke-linejoin="round" stroke-dasharray="6 4" marker-end="url(#arr1)"/>
+<polyline points="1150,863 1240,863 1240,742 1270,742" fill="none" stroke="#66717d" stroke-width="1.5" stroke-linejoin="round" stroke-dasharray="6 4" marker-end="url(#arr1)"/>
+<polyline points="1580,863 1745,863" fill="none" stroke="#66717d" stroke-width="1.5" stroke-linejoin="round" stroke-dasharray="6 4" marker-end="url(#arr1)"/>
+<text x="1604" y="848" text-anchor="start" font-family="DejaVu Sans Mono,Arial,sans-serif" font-size="16" font-weight="400" fill="#66717d">result_valid</text>
+<circle cx="1600" cy="863" r="3.5" fill="#66717d"/>
+<polyline points="1600,863 1600,755 1590,755" fill="none" stroke="#66717d" stroke-width="1.5" stroke-linejoin="round" stroke-dasharray="6 4" marker-end="url(#arr1)"/>
+<polyline points="1150,863 1220,863 1220,932 1437,932" fill="none" stroke="#66717d" stroke-width="1.5" stroke-linejoin="round" stroke-dasharray="6 4" marker-end="url(#arr1)"/>
+<circle cx="1200" cy="863" r="3.5" fill="#66717d"/>
+<circle cx="1460" cy="932" r="23" fill="white" stroke="#66717d" stroke-width="2"/>
+<text x="1460" y="940" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="22" font-weight="400" fill="#66717d">&amp;</text>
+<polyline points="1600,863 1620,863 1620,978 1460,978 1460,955" fill="none" stroke="#66717d" stroke-width="1.4" stroke-linejoin="round" stroke-dasharray="6 4" marker-end="url(#arr1)"/>
+<polyline points="1483,932 1745,932" fill="none" stroke="#66717d" stroke-width="1.5" stroke-linejoin="round" stroke-dasharray="6 4" marker-end="url(#arr1)"/>
+<rect x="1546" y="902" width="110.08" height="21" fill="white" stroke="none" stroke-width="1.7"/>
+<text x="1550" y="918" text-anchor="start" font-family="DejaVu Sans Mono,Arial,sans-serif" font-size="16" font-weight="400" fill="#66717d">result_last</text>
+<text x="35" y="1007" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" font-weight="400" fill="#66717d">A new command is blocked while the stream is busy. ready = 0 holds index, data, coordinates, and last; reset aborts the stream.</text>
+</svg>
