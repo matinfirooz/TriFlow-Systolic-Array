@@ -1,0 +1,15 @@
+rtl/triflow_pkg.sv
+rtl/signed_mac.sv
+rtl/matrix_buffer.sv
+rtl/result_buffer.sv
+rtl/resident_tracker.sv
+rtl/preload_sequencer.sv
+rtl/wavefront_scheduler.sv
+rtl/triflow_pe.sv
+rtl/triflow_array.sv
+rtl/triflow_controller.sv
+rtl/perf_counters.sv
+rtl/result_collector.sv
+rtl/result_streamer.sv
+rtl/triflow_core.sv
+rtl/triflow_top.sv
